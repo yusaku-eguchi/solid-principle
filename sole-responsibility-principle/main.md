@@ -60,8 +60,6 @@ class Employee
     {
         // 業務時間を返却する
     }
-
-    // getRegularHoursに
 }
 ```
 開発時、`calculatePau()`と`reportHours()`での業務時間の算出方法が同一であったため、業務時間の算出をメソッドとして切り出した
